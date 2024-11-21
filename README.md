@@ -43,7 +43,7 @@ module.exports = {
     // ...
   },
   plugins: [
-    require('@tailwind-plugin/expose-colors'),
+    require('@tailwind-plugin/expose-colors')(),
     // ...
   ],
 }
